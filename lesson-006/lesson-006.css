@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+    background-color: white;
+    margin-left: 10%;
+}
+.main_circle{
+    width: 417px;
+    height: 417px;
+    position: absolute;
+    z-index: -1;
+    background: conic-gradient(from 90deg at 50% 50%, rgba(255, 178, 30, 0.22) 0deg, rgba(255, 255, 255, 0.021) 360deg);
+    border-radius: 50%;
+    left: -30px;
+}
+.header{
+   height: 100px;
+    display: flex;
+    align-items: center;
+}
+.line{
+    flex: 1;
+    margin: 0px 32px;
+    background-color: #000;
+    height: 1px;
+    opacity: 0.2;
+}
+.item{
+    margin: 0px 20px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.collection{
+    display: flex;
+    margin-right: 10%;
+}
+.header_logo{
+    margin-left: 40px;
+}
+.banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+ 
+    display: flex;
+}
+.banner_left{
+    width: 50%;
+    height: 100%;
+  
+    position: relative;
+}
+.banner_right{
+    width: 50%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 10--
+}
+.banner_right > img{
+    width: 100%;
+    margin-left: -100px;
+}
+.jakarta{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 145%;
+    /* or 26px */
+    margin-left: 40px ;
+    letter-spacing: 1px;
+    margin-top: 70px;
+    color: #000000;
+}
+.gradient_line{
+    width: 200px;
+    height: 4px;
+    margin-left: 40px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #FFB21E -1.96%, rgba(255, 255, 255, 0) 99.72%);
+}
+.Left_title{
+    font-weight: 100;
+    font-size: 56px;
+    margin-left: 40px;
+    margin-top: 40px;
+    line-height: 145%;
+}
+.leftsub{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 155%;
+    /* or 31px */
+    margin: 20px 0px 0px 40px ;
+    color: #000000;
+    opacity: 0.6;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+    width: 65%;
+    margin-left: 40px;
+}
+.left_button{
+    width: 282px;
+    height: 63px;
+    left: 0px;
+    top: 322px;
+    background: #FFB21E;
+    border-radius: 8px;
+    /* Inside Auto Layout */
+    border: none;
+    box-shadow: 0px 0px 0px;
+    margin-left: 40px;
+    flex: none;
+    order: 1;   
+    flex-grow: 0;
+    color: white;
+    font-size: 17px;
+}
+.secondary_circle{
+width: 180px;
+height: 180px;
+background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(18, 84, 255, 0.25) 0deg,
+    rgba(18, 84, 255, 0.25) 0.04deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  transform: rotate(90deg);
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  bottom: 100px;
+}
+.about{
+    display: flex;
+    margin-left: 155px ;
+}
+.bola > img{
+    border-radius: 50%;
+}
+.chiziq{
+    width: 120px;
+    
+    background-color: aqua ;
+}
+.goaaal > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 145%;
+/* or 93px */
+color: #000000;
+margin-left: 48px;
+}
+.p{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 145%;
+/* identical to box height, or 29px */
+
+letter-spacing: 1px;
+    margin-left: 48px;
+color: #000000;
+}
+.we{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 155%;
+/* or 31px */
+color: #000000;
+margin-left: 48px;
+opacity: 0.6
+}
+.more{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+margin-left: 48px;
+color: #1254FF;
+}
+.fas{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 145%;
+/* identical to box height, or 29px */
+
+text-align: center;
+letter-spacing: 1px;
+margin-left: 54px;
+color: #000000
+}
+.teh{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 155%;
+/* or 99px */
+
+text-align: center;
+margin-left: 40px;
+color: #000000;
+}
+.engegage{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-around;
+}
+.community > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 145%;
+/* identical to box height, or 35px */
+
+
+color: #000000;
+}
+.community > p{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+.community1 > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 145%;
+/* identical to box height, or 35px */
+
+
+color: #000000;
+}
+.community1 > p{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+.community2 > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 145%;
+/* identical to box height, or 35px */
+
+
+color: #000000;
+}
+.community2 > p{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+.workspace{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-around;
+}
+.per > h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 145%; 
+}
+.per > p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155%;
+    /* or 28px */
+    
+    
+    color: #000000;
+    
+    opacity: 0.6;
+}
+.per1 > h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 145%; 
+}
+.per1 > p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155%;
+    /* or 28px */
+    
+    
+    color: #000000;
+    
+    opacity: 0.6;
+}
+.per2 > h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 145%; 
+}
+.per2 > p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155%;
+    /* or 28px */
+    
+    
+    color: #000000;
+    
+    opacity: 0.6;
+}
+.ccc{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 145%;
+/* identical to box height, or 29px */
+
+text-align: center;
+letter-spacing: 1px;
+margin-left: 50px;
+color: #000000;
+}
+.ooo{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-around;
+}
+.ka{
+    width: 270px;
+height: 641px;
+
+
+background: #FFF0D2;
+border-radius: 16px;
+}
+.ka2{
+    width: 270px;
+    height: 641px;
+   
+    
+ 
+    border-radius: 16px;
+}
+.ka3{
+    width: 270px;
+    height: 641px;
+    
+
+    border-radius: 16px;
+}
+.ka4{
+    width: 270px;
+    height: 641px;
+
+    border-radius: 16px;
+}
+.ka > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+margin-top: 40px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.yo{
+    
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+text-align: center;
+
+color: #000000;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.aaa{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* identical to box height, or 28px */
+margin-left: 58px;
+  margin-top: 20px;
+color: #000000;
+}
+.lalala{
+    width: 192px;
+height: 58px;
+margin-top: 100px;
+    border: none;
+    color: #fff;
+    margin-left: 45px;
+background: #FFB21E;
+border-radius: 8px;
+}
+.ka2 > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.tegm{
+    width: 192px;
+    height: 58px;
+    margin-top: 100px;
+        border: none;
+        color: #fff;
+        margin-left: 45px;
+    background: #fff;
+    border-radius: 8px;
+    color: aqua;
+}
+.ka3 > h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.theyy{
+    width: 192px;
+    height: 58px;
+    margin-top: 100px;
+        border: none;
+        color: #fff;
+        margin-left: 45px;
+    background: #fff;
+    border-radius: 8px;
+    color: #FFB21E ;
+}
+.ka4 > h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.tegm1{
+    width: 192px;
+    height: 58px;
+    margin-top: 100px;
+        border: none;
+        color: #fff;
+        margin-left: 45px;
+    background: #fff;
+    border-radius: 8px;
+    color: aqua;
+    margin-top: 110px;
+}
+.collec{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 100px;
+}
+.revo{
+    
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+display: flex;
+list-style: none;
+justify-content: space-around;
+}
+.revo1{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+display: flex;
+list-style: none;
+margin-left: 470px;
+}
+.fa{
+    margin-left: 350px;
+}
+.main{
+    width: 1440px;
+    height: 528px;
+    margin-left: 0px;
+    margin-top:  280px;
+    display: flex;
+    justify-content: space-between;
+}
+.main1 > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 41px;
+
+color: #000000;
+}
+.main1 > p{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+.main2 > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 41px;
+
+color: #000000;
+}
+.main2 > p{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+.main3 > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 41px;
+
+color: #000000;
+}
+.main3 > p{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 155%;
+/* or 28px */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+.main4 > h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 41px;
+
+color: #000000;
+}
